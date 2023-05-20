@@ -44,3 +44,98 @@ Stack trace:
 [15-May-2023 14:17:54 Europe/Moscow] PHP Warning:  Undefined variable $err_msg in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php on line 16
 [15-May-2023 14:17:54 Europe/Moscow] PHP Stack trace:
 [15-May-2023 14:17:54 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 14:45:10 Europe/Moscow] PHP Warning:  Undefined variable $err_msg in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php on line 17
+[18-May-2023 14:45:10 Europe/Moscow] PHP Stack trace:
+[18-May-2023 14:45:10 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 14:45:16 Europe/Moscow] PHP Warning:  Undefined variable $err_msg in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php on line 17
+[18-May-2023 14:45:16 Europe/Moscow] PHP Stack trace:
+[18-May-2023 14:45:16 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 14:45:50 Europe/Moscow] PHP Warning:  Undefined variable $err_msg in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php on line 17
+[18-May-2023 14:45:50 Europe/Moscow] PHP Stack trace:
+[18-May-2023 14:45:50 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 14:46:28 Europe/Moscow] PHP Warning:  Undefined variable $err_msg in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php on line 17
+[18-May-2023 14:46:28 Europe/Moscow] PHP Stack trace:
+[18-May-2023 14:46:28 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 14:46:31 Europe/Moscow] PHP Warning:  Undefined variable $err_msg in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php on line 17
+[18-May-2023 14:46:31 Europe/Moscow] PHP Stack trace:
+[18-May-2023 14:46:31 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 17:22:40 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type bool in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php on line 19
+[18-May-2023 17:22:40 Europe/Moscow] PHP Stack trace:
+[18-May-2023 17:22:40 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 17:27:12 Europe/Moscow] Login fail test@test.test 1a52e17fa899cf40fb04cfc42e6352f1
+[18-May-2023 17:27:17 Europe/Moscow] Login fail test@test.test 1a52e17fa899cf40fb04cfc42e6352f1
+[18-May-2023 17:27:29 Europe/Moscow] Login fail umsi@umich.edu f7e700fd14886e0269aa78403d20436e
+[18-May-2023 17:27:34 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 17
+[18-May-2023 17:27:34 Europe/Moscow] PHP Stack trace:
+[18-May-2023 17:27:34 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 17:27:34 Europe/Moscow] PHP   2. login($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:9
+[18-May-2023 17:27:34 Europe/Moscow] Login success 
+[18-May-2023 17:39:22 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 17
+[18-May-2023 17:39:22 Europe/Moscow] PHP Stack trace:
+[18-May-2023 17:39:22 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[18-May-2023 17:39:22 Europe/Moscow] PHP   2. login($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:9
+[18-May-2023 17:39:22 Europe/Moscow] Login success 
+[18-May-2023 17:39:37 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:39:41 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:39:59 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:40:07 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:40:30 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:41:38 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:41:43 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:41:48 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:42:03 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:46:11 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:46:14 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:48:58 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:48:59 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:49:00 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:49:01 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:50:29 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:50:31 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:50:31 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:50:40 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:50:41 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:50:42 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:51:28 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:51:28 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:51:29 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:51:41 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:53:36 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[18-May-2023 17:54:52 Europe/Moscow] Login fail  4b42201ceb7acca0295fdb0d8b7cac8a
+[20-May-2023 14:49:11 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 17
+[20-May-2023 14:49:12 Europe/Moscow] PHP Stack trace:
+[20-May-2023 14:49:12 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[20-May-2023 14:49:12 Europe/Moscow] PHP   2. login($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:9
+[20-May-2023 14:49:12 Europe/Moscow] Login success 
+[20-May-2023 15:06:07 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 17
+[20-May-2023 15:06:07 Europe/Moscow] PHP Stack trace:
+[20-May-2023 15:06:07 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[20-May-2023 15:06:07 Europe/Moscow] PHP   2. login($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:9
+[20-May-2023 15:06:07 Europe/Moscow] Login success 
+[20-May-2023 15:11:28 Europe/Moscow] PHP Warning:  Undefined array key "user_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 38
+[20-May-2023 15:11:28 Europe/Moscow] PHP Stack trace:
+[20-May-2023 15:11:28 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php:0
+[20-May-2023 15:11:28 Europe/Moscow] PHP   2. data_insert($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php:10
+[20-May-2023 15:13:42 Europe/Moscow] PHP Warning:  Undefined array key "user_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 39
+[20-May-2023 15:13:42 Europe/Moscow] PHP Stack trace:
+[20-May-2023 15:13:42 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php:0
+[20-May-2023 15:13:42 Europe/Moscow] PHP   2. data_insert($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php:10
+[20-May-2023 15:14:15 Europe/Moscow] PHP Warning:  Undefined array key "user_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 39
+[20-May-2023 15:14:15 Europe/Moscow] PHP Stack trace:
+[20-May-2023 15:14:15 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php:0
+[20-May-2023 15:14:15 Europe/Moscow] PHP   2. data_insert($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php:10
+[20-May-2023 15:15:42 Europe/Moscow] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php:44
+Stack trace:
+#0 /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php(44): PDOStatement->execute()
+#1 /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php(10): data_insert()
+#2 {main}
+  thrown in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 44
+[20-May-2023 15:15:50 Europe/Moscow] PHP Warning:  Undefined array key "user_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 39
+[20-May-2023 15:15:50 Europe/Moscow] PHP Stack trace:
+[20-May-2023 15:15:50 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php:0
+[20-May-2023 15:15:50 Europe/Moscow] PHP   2. data_insert($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/add.php:10
+[20-May-2023 15:16:45 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 19
+[20-May-2023 15:16:45 Europe/Moscow] PHP Stack trace:
+[20-May-2023 15:16:45 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[20-May-2023 15:16:45 Europe/Moscow] PHP   2. login($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:9
+[20-May-2023 15:16:45 Europe/Moscow] Login success 
