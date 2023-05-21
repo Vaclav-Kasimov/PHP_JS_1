@@ -71,4 +71,22 @@
             }
             return ($result);
     }
+
+    function get_row($pdo){
+        if (!check_user_id($pdo)){
+            header('Location: index.php');
+            return false;
+        }   else{
+            return find_by_primary_key($pdo,$_GET['profile_id']);
+        }
+    }
+
+    function profile_info($pdo){
+        $row = get_row($pdo);
+        if ($row === false){
+            return false;
+        }else{
+            return "<p>First Name: ".$row['first_name']."</p><p>Last Name: ".$row['last_name']."</p><p>Email: ".$row['email']."</p><p>Headline: ".$row['headline']."</p><p>Summary: ".$row['summary']."</p>";
+        }
+    }
 ?>

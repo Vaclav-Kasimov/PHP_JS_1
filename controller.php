@@ -38,15 +38,71 @@ function data_insert($pdo){
             $stmt = $pdo->prepare('INSERT INTO Profile (user_id, first_name, last_name, email, headline, summary)VALUES ( :uid, :fn, :ln, :em, :he, :su)');
             $stmt->execute(array(
                 ':uid' => $_SESSION['user_id'],
-                ':fn' => $_POST['first_name'],
-                ':ln' => $_POST['last_name'],
-                ':em' => $_POST['email'],
-                ':he' => $_POST['headline'],
-                ':su' => $_POST['summary'])
+                ':fn' => htmlentities($_POST['first_name']),
+                ':ln' => htmlentities($_POST['last_name']),
+                ':em' => htmlentities($_POST['email']),
+                ':he' => htmlentities($_POST['headline']),
+                ':su' => htmlentities($_POST['summary']))
             );
             header('location: index.php');
-            $_SESSION['success'] = 'Record inserted';
+            $_SESSION['success'] = 'Record added';
             return;
+        }
+    }
+}
+
+function data_edit($pdo){
+    if (isset($_POST['dopost'])){
+        if (error_handler_insert_edit()){
+            header('Location: '.$_SERVER['PHP_SELF']);
+            return;
+        }
+        else{
+            $stmt = $pdo->prepare('UPDATE Profile SET first_name = :fn, last_name = :ln, email = :em, headline = :he, summary = :su WHERE profile_id = :id');
+            $stmt->execute(array(
+                ':id' => $_GET['profile_id'],
+                ':fn' => htmlentities($_POST['first_name']),
+                ':ln' => htmlentities($_POST['last_name']),
+                ':em' => htmlentities($_POST['email']),
+                ':he' => htmlentities($_POST['headline']),
+                ':su' => htmlentities($_POST['summary']))
+            );
+            header('location: index.php');
+            $_SESSION['success'] = 'Profile updated';
+            return;
+        }
+    }
+}
+
+function data_remove($pdo){
+    if ( isset($_POST['delete']) && isset($_POST['profile_id']) ) {
+        $sql = "DELETE FROM Profile WHERE profile_id = :id";
+        $stmt = $pdo->prepare($sql);
+        $stmt->execute(array(':id' => $_POST['profile_id']));
+        $_SESSION['success'] = 'Record deleted';
+        header( 'Location: index.php' ) ;
+        return;
+    }
+}
+
+function find_by_primary_key($pdo,$key){
+    $stmt = $pdo->prepare('SELECT * FROM Profile WHERE profile_id = :id');
+    $stmt->execute(array(':id' => $key));
+    return $stmt->fetch(PDO::FETCH_ASSOC);
+}
+
+
+function check_user_id($pdo){
+    if (!is_numeric($_GET['profile_id']) || !isset($_GET['profile_id'])){
+        $_SESSION['error'] = 'Could not load profile';
+        return false;
+    }   else{
+        $row = find_by_primary_key($pdo, $_GET['profile_id']);
+        if ( $row === false ) {
+            $_SESSION['error'] = 'Could not load profile';
+            return false;
+        }   else{
+            return true;
         }
     }
 }

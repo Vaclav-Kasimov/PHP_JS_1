@@ -139,3 +139,70 @@ Stack trace:
 [20-May-2023 15:16:45 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
 [20-May-2023 15:16:45 Europe/Moscow] PHP   2. login($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:9
 [20-May-2023 15:16:45 Europe/Moscow] Login success 
+[21-May-2023 16:28:07 Europe/Moscow] Login fail umsi@umich.edu 9077095925a464f8336e98954fad5fc4
+[21-May-2023 16:28:44 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 19
+[21-May-2023 16:28:44 Europe/Moscow] PHP Stack trace:
+[21-May-2023 16:28:44 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[21-May-2023 16:28:44 Europe/Moscow] PHP   2. login($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:9
+[21-May-2023 16:28:44 Europe/Moscow] Login success 
+[21-May-2023 18:54:28 Europe/Moscow] PHP Warning:  Undefined array key "autos_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/model.php on line 80
+[21-May-2023 18:54:28 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:54:28 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:54:28 Europe/Moscow] PHP   2. get_row($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:18
+[21-May-2023 18:54:28 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type bool in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 18
+[21-May-2023 18:54:28 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:54:28 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:54:28 Europe/Moscow] PHP Warning:  Undefined array key "autos_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/model.php on line 80
+[21-May-2023 18:54:28 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:54:28 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:54:28 Europe/Moscow] PHP   2. get_row($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:21
+[21-May-2023 18:54:28 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type bool in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 21
+[21-May-2023 18:54:28 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:54:28 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:55:34 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/controller.php on line 19
+[21-May-2023 18:55:34 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:34 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:0
+[21-May-2023 18:55:34 Europe/Moscow] PHP   2. login($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/login.php:9
+[21-May-2023 18:55:34 Europe/Moscow] Login success 
+[21-May-2023 18:55:39 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 18
+[21-May-2023 18:55:39 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:39 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:55:39 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 21
+[21-May-2023 18:55:39 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:39 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:55:41 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 18
+[21-May-2023 18:55:41 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:41 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:55:41 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 21
+[21-May-2023 18:55:41 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:41 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:55:47 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 18
+[21-May-2023 18:55:47 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:47 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:55:47 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 21
+[21-May-2023 18:55:47 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:47 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:55:53 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 18
+[21-May-2023 18:55:53 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:53 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:55:53 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 21
+[21-May-2023 18:55:53 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:55:53 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:57:11 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 18
+[21-May-2023 18:57:11 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:57:11 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 18:57:11 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 21
+[21-May-2023 18:57:11 Europe/Moscow] PHP Stack trace:
+[21-May-2023 18:57:11 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 19:27:22 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type bool in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 19
+[21-May-2023 19:27:22 Europe/Moscow] PHP Stack trace:
+[21-May-2023 19:27:22 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 19:27:22 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type bool in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 22
+[21-May-2023 19:27:22 Europe/Moscow] PHP Stack trace:
+[21-May-2023 19:27:22 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 19:27:24 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type bool in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 19
+[21-May-2023 19:27:24 Europe/Moscow] PHP Stack trace:
+[21-May-2023 19:27:24 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
+[21-May-2023 19:27:24 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type bool in /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php on line 22
+[21-May-2023 19:27:24 Europe/Moscow] PHP Stack trace:
+[21-May-2023 19:27:24 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_JS_1/delete.php:0
